@@ -20,20 +20,20 @@
 */
 
 ko.validation.localize({
-    required: 'Detta fält är obligatoriskt',
-    min: 'Fyll i ett värde som är större än eller lika med {0}',
-    max: 'Fyll i ett värde som är mindre än eller lika med {0}',
-    minLength: 'Fyll i minst {0} tecken',
-    maxLength: 'Fyll i färre än {0} tecken',
-    pattern: 'Var god kontrollera värdet',
-    step: 'Värdet måste ökas med {0}',
-    email: 'Fyll i en korrekt e-postadress',
-    date: 'Fyll i ett korrekt datum',
-    dateISO: 'Fyll i ett korrekt datum',
-    number: 'Fyll i ett nummer',
-    digit: 'Fyll i en siffra',
-    phoneUS: 'Fyll i ett korrekt telefonnummer',
-    equal: 'Fyll i samma värde en gång till',
-    notEqual: 'Fyll i ett annat värde',
-    unique: 'Fyll i ett unikt värde'
+    required: 'Toto pole je povinné.',
+    min: 'Zadejte číslo větší nebo rovné {0}.',
+    max: 'Zadejte číslo menší nebo rovné {0}.',
+    minLength: 'Vložte alespoň {0} znaků.',
+    maxLength: 'Vložte nejvíce {0} znaků.',
+    pattern: 'Zkontrolujte formát pole.',
+    step: 'Hodnota musí být násobek {0}.',
+    email: 'Neplatná e-mailová adresa.',
+    date: 'Zadejte platné datum.',
+    dateISO: 'Zadejte platné datum.',
+    number: 'Zadejte číslo.',
+    digit: 'Zadejte číslice.',
+    phoneUS: 'Zadejte platné telefonní číslo.',
+    equal: 'Hodnoty musí být stejné.',
+    notEqual: 'Vyberte jinou hodnotu.',
+    unique: 'Zkontrolujte, zda hodnota je jedinečná.'
 });
